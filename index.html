@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>Detective game</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/game.css">
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="logo">
+        <a href="#">Detective game</a>
+      </div>
+      <nav id="menu" class="main-nav">
+        <ul class="main-menu">
+          <li><a href="#section1">Introduction</a></li>
+          <li><a href="#section2">Theory</a></li>
+          <li><a href="#section3">The game</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="banner"></div>
+    <section id="section1" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Introduction</h2>
+            </div>
+          </div>
+          <div class="row col-md-12 content">
+            <div class="col-md-4">
+              <p class="icon-header"><i class="fa fa-book"></i></p>
+              <p></i>We made a game to help high school students decide if they want to study computer science. 
+              All neccesary knowledge to prepare for the game is provided on the site.</p>
+            </div>
+            <div class="col-md-4">
+              <p class="icon-header"><i class="fa fa-gamepad"></i></p>
+              <p>
+                Currently the game consist of one level, but it is expandable up to 4 games in the future.
+                The game consists of dragging the answers to the questions they belong to.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <p class="icon-header"><i class="fa fa-user-secret"></i></p>
+              <p>In the game you are the detective who is trying to catch a hacker by solving the puzzles the hacker left behind. Have fun!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section2" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Theory</h2>
+            </div>
+          </div>
+          <div class="col-md-12 content">
+            <p>In this section you can find theoretic information about several topics questioned in the game. 
+               Also feel free to look up more information by yourself.</p>
+          </div>
+          <div class="col-md-12">
+            <div id="accordion" class="accordion content" >
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cloud">
+                    Cloud Computing
+                  </button>
+                </h2>
+                <div id="cloud" class="accordion-collapse collapse show"  data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    Cloud computing is like having a giant virtual storage locker that you can access from anywhere. It's a model of computing that allows users to access computing resources, like servers, storage, and applications, over the internet. Cloud computing is used by businesses and individuals to store and share data, run applications, and access services without having to invest in their own infrastructure.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#data">
+                    Big Data
+                  </button>
+                </h2>
+                <div id="data" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    Big data is like having a giant jigsaw puzzle with billions of pieces. It's a term used to describe the vast amounts of data that are generated every day by individuals, businesses, and machines. Big data includes everything from social media posts and online purchases to sensor readings and medical records. Analyzing big data can help organizations make better decisions and gain insights into customer behavior, market trends, and more.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#iot" >
+                    Internet of Things (IoT)
+                  </button>
+                </h2>
+                <div id="iot" class="accordion-collapse collapse"  data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    IoT is like having a bunch of interconnected devices that can talk to each other and work together. It's a network of physical devices, like sensors, cameras, and appliances, that are connected to the internet and can exchange data. IoT is used in many applications, from smart homes and cities to industrial automation and healthcare. The possibilities for IoT are endless!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#python">
+                    Python
+                  </button>
+                </h2>
+                <div id="python" class="accordion-collapse collapse"  data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    Python is like a friendly and helpful friend who speaks your language. It's a popular programming language that's easy to learn and read, making it a great choice for beginners. Python is used for a wide range of applications, from data analysis and web development to artificial intelligence and game development.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c">
+                    C#
+                  </button>
+                </h2>
+                <div id="c" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    C# is like a precision tool that can create complex applications. It's a modern programming language developed by Microsoft for building Windows applications, games, and web services. C# is known for its performance, security, and ease of use. It's used in popular applications like Unity, Visual Studio, and Azure.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#java" >
+                    Java
+                  </button>
+                </h2>
+                <div id="java" class="accordion-collapse collapse"  data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    Java is like a Swiss Army knife for programming. It's versatile, reliable, and has everything you need for any coding task. can do anything, from creating desktop applications to building web-based systems. Java can also be run on any platform, so you can take your code with you wherever you go. And just like a Swiss Army knife, Java has a lot of tools and functions, so you can choose the right one for the job.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cplus">
+                    C++
+                  </button>
+                </h2>
+                <div id="cplus" class="accordion-collapse collapse"  data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    C++ is like a powerful sports car that can handle any terrain. It's a high-performance programming language that's used to build system software, games, and applications that require high speed and efficiency. C++ is known for its control over hardware and memory, making it a popular choice for developing operating systems, game engines, and financial software.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#proglang">
+                    Programming languages
+                  </button>
+                </h2>
+                <div id="proglang" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    Programming languages are languages used to communicate with computers and other digital devices. They are designed to give instructions to computers in a way that they can understand and execute.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#blockchain" >
+                    Blockchain
+                  </button>
+                </h2>
+                <div id="blockchain" class="accordion-collapse collapse"  data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    Blockchain is like a digital ledger that keeps track of all the transactions made in a network. It's a decentralized, secure, and transparent way to store and transfer information. Blockchain is most well-known for being the technology behind cryptocurrencies like Bitcoin, but it can also be used for a variety of other applications, like supply chain management, voting systems, and digital identity verification.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ai" >
+                    Artificial Intelligence
+                  </button>
+                </h2>
+                <div id="ai" class="accordion-collapse collapse"  data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    Artificial Intelligence, or AI for short, is like having a super-smart robot friend. It's a field of computer science that focuses on creating machines that can perform tasks that normally require human intelligence, like recognizing speech, making decisions, and learning from experience. AI is used in many applications, from virtual assistants like Siri and Alexa to self-driving cars and robots.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cyber">
+                    Cybersecurity
+                  </button>
+                </h2>
+                <div id="cyber" class="accordion-collapse collapse"  data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    Cybersecurity is like a digital bodyguard that protects your computer and online information from bad guys who want to steal or mess with your stuff. It involves using various tools and techniques such as firewalls, encryption, antivirus software, and secure passwords to safeguard data and prevent cyber attacks. The goal of cybersecurity is to ensure the confidentiality, integrity, and availability of digital assets and to minimize the risks associated with using technology.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#science">
+                    Data science
+                  </button>
+                </h2>
+                <div id="science" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    Data science is the art of turning data into knowledge, like turning a bunch of puzzle pieces into a complete picture. This is the study of how to extract insights and knowledge from data. It involves the use of statistical analysis, machine learning, and data visualization techniques to analyze and interpret large datasets.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#web">
+                    Web design
+                  </button>
+                </h2>
+                <div id="web" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                  <div class="accordion-body">
+                    Web development is like building a digital sandcastle. You start with a blank canvas and use your coding skills to shape and mold it into a beautiful website.To be a web developer, you need to know how to speak the language of the internet: HTML, CSS, and JavaScript. It's like learning a new dialect, but instead of words, you use tags, selectors, and functions. You also need to have a good sense of design, like a fashion designer for the web.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section3" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>The game</h2>
+            </div>
+          </div>
+          <div class="col-md-12 content game">
+            <figure><img src="assets/images/hacker.png" alt="hacker"></figure>
+            <p><a href="/assets/game/detectiveGame.zip">Download here <i class="fa fa-download"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
